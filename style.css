@@ -2,3 +2,21 @@ body { background: #f5f6f8; }
 
 section { padding: 30px 0; border-bottom: 1px solid #ccc; }
 
+/* mobile */
+#task0 h2 { font-size: 24px; }
+#task0 h3 { font-size: 20px; }
+#task0 p  { font-size: 14px; }
+
+/* tablet */
+@media (min-width: 768px) {
+    #task0 h2 { font-size: 36px; }
+    #task0 h3 { font-size: 28px; }
+    #task0 p  { font-size: 18px; }
+}
+/* desktop */
+@media (min-width: 992px) {
+    #task0 h2 { font-size: 52px; }
+    #task0 h3 { font-size: 36px; }
+    #task0 p  { font-size: 22px; }
+}
+
