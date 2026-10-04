@@ -42,3 +42,20 @@ section { padding: 30px 0; border-bottom: 1px solid #ccc; }
     .t1-box { width: 100%; }
 }
 
+#task4 { font-size: 16px; }
+#task4 .hero-title { font-size: 40px; }
+#task4 .sidebar-box { background: white; padding: 20px; border-radius: 8px; }
+.site-footer { background: #212529; color: white; text-align: center; padding: 15px; }
+.tagline, .extra-contact { display: block; }   /* visible on desktop */
+
+@media (max-width: 991px) {          /* tablet */
+    #task4 { font-size: 15px; }
+    #task4 .hero-title { font-size: 32px; }
+    #task4 { padding: 20px 0; }
+}
+@media (max-width: 767px) {          /* mobile */
+    #task4 { font-size: 14px; padding: 10px 0; }
+    #task4 .hero-title { font-size: 24px; }
+    #task4 .sidebar-box { padding: 12px; }
+    .tagline, .extra-contact { display: none; }  /* hidden on mobile */
+}
