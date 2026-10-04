@@ -20,3 +20,25 @@ section { padding: 30px 0; border-bottom: 1px solid #ccc; }
     #task0 p  { font-size: 22px; }
 }
 
+.t1-row { display: flex; flex-wrap: wrap; }
+/* desktop: 3 in a row */
+.t1-box {   
+    width: 33.33%;
+    padding: 40px 10px;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+}
+.t1-1 { background: #e74c3c; }
+.t1-2 { background: #27ae60; }
+.t1-3 { background: #2980b9; }
+
+/* tablet: 2 in a row */
+@media (max-width: 991px) {          
+    .t1-box { width: 50%; }
+}
+/* mobile: stacked */
+@media (max-width: 767px) {          
+    .t1-box { width: 100%; }
+}
+
